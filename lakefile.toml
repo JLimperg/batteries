@@ -2,6 +2,8 @@ name = "batteries"
 testDriver = "BatteriesTest"
 lintDriver = "runLinter"
 defaultTargets = ["Batteries", "runLinter"]
+precompileModules = true
+platformIndependent = true
 
 [leanOptions]
 linter.missingDocs = true
